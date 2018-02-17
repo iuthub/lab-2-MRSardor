@@ -1,12 +1,16 @@
-body
+.greenFramed
 {
 	border:5px green solid;
+	background: white;
+
 }
 
 .redFramed
 {
 	border: 5px red solid;
+text-align: right; 
 }
+
 
 .redFramed>h2
 {
@@ -21,4 +25,25 @@ body
 .blueFramed
 {
 	border: 5px blue solid;
+	background: #E8FBFB;
+	margin-top: 10px;
+	padding: 5px;
+    overflow: hidden;
+}
+
+body
+{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+#spatula
+{
+	float: right;
+
+}
+
+#cookiemonster
+{
+	float: right;
 }
